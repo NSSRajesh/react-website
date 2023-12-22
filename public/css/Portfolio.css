@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px){
+    
+    .gal-sec{
+		padding:15px 0;
+		margin:15px 0;
+	}
+    .gal-container{
+		width:95%;
+		margin:auto;
+	}
+	.gal-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.gal-col{
+		width:100%;
+	}
+	.gal-container h5{
+	font-size:11px;
+	}
+	.gal-container h3{
+		font-size:14px;
+	}
+	.gal-container ul li{	
+	padding:15px 20px 10px 0px;
+	list-style-type:none;
+	font-size:13px;
+    }
+}
+
+@media(min-width:720px){
+    
+    .gal-sec{
+	padding:40px 0;
+	margin:40px 0 ;
+    }
+    .gal-container{
+		width:90%;
+		margin:auto;
+	}
+	.gal-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.gal-col{
+		width:33.3%;
+		gap:3%;
+	}
+	.gal-container h5{
+	font-size:12px;
+	}
+	.gal-container h3{
+		font-size:22px;
+	}
+	.gal-container ul li{	
+	padding:15px 20px 10px 0px;
+	list-style-type:none;
+	font-size:15px;
+    }
+}
+
+@media(min-width:1000px){
+    
+    .gal-sec{
+	padding:40px 0;
+	margin:40px 0 ;
+    }
+    .gal-container{
+		width:90%;
+		margin:auto;
+	}
+	.gal-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.gal-col{
+		width:33.3%;
+		gap:1%;
+	}
+	.gal-container h5{
+	font-size:12px;
+    }
+    .gal-container h3{
+	font-size:22px;
+    }
+	.gal-container ul li{	
+	padding:15px 20px 10px 0px;
+	list-style-type:none;
+	font-size:22px;
+    }
+}
+
+
+.gal-container{
+	width:90%;
+	margin:auto;
+}
+.gal-container h5::after{
+	content:"";
+	width:70px;
+	height:3px;
+	margin:3px 10px;
+	background-color:#deb435;
+	display:inline-block;
+	
+}
+.gal-container ul{
+	display:flex;
+	justify-content:center;
+}
+
+.gal-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.gal-card{
+	padding:7px;
+}
+.portfolio-item{
+	position:relative;
+	overflow:hidden;
+}
+.portfolio-item:hover .portfolio-info{
+	opacity:1;
+}
+.portfolio-head h2{
+	font-size:18px;
+	font-weight:600;
+}
+.portfolio-head p{
+	font-size:12px;
+	font-weight:600;
+	text-align:center;
+}
+.portfolio-icon{
+	color:gold;
+}
+	
+.portfolio-info{
+	position:absolute;
+	top:0;
+	width:100%;
+	background-color:#00000075;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	opacity:0;
+	transition:1s all ease;
+}
+.portfolio-item:hover img{
+	transform:scale(1.1);
+}
+.portfolio-item img{
+    width:100%;	
+	vertical-align:middle;
+	transition:1s all ease;
+}

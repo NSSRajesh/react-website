@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px){
+    .about-sec{
+        padding: 15px 0;
+        margin:15px 0;
+    }
+    .container{
+        width:95%;
+        margin:auto;
+    }
+    .about-row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .col{
+        width:100%;
+    }
+    .col p{
+        padding-top:10px;	
+        padding-bottom:12px;
+        font-size:14px;
+    }
+    .col ul li{
+        padding-bottom:10px;
+        font-size:13px;
+    }
+        
+    .col i{
+        padding-right:8px;
+        color:gold;
+    }
+    .col img{
+        width:100%;
+    }
+}
+
+@media(min-width:720px){
+    .about-sec{
+        padding: 40px 0;
+        margin:40px 0;
+    }
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    .about-row{
+        display:flex;
+        flex-wrap:nowrap;	
+        align-items:center;
+        justify-content:center;
+        gap:2%;
+    }
+    .col{
+        width:50%;
+    }
+    .col p{
+        padding-bottom:10px;
+        font-size:18px;
+    }
+    .col ul li{
+        padding-bottom:10px;
+        font-size:18px;
+    }
+    .col i{
+        padding-right:13px;
+        color:gold;
+    }
+    .con-para{
+        padding-top:12px;
+    }
+        .col img{
+        width:100%;
+    }
+}
+
+
+@media(min-width:1000px){
+    .about-sec{
+        padding:40px 0;
+        margin:40px 0;
+    }
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    .about-row{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:5%;
+    }
+    .col{
+        width:50%;
+   }
+    .col p{
+        padding-bottom:10px;
+        font-size:18px;
+    }
+    .col ul li{
+        padding-bottom:10px;
+        font-size:18px;
+    }
+    .col i{
+        padding-right:13px;
+        color:gold;
+    }
+    .con-para{
+        padding-top:12px;
+    }
+    .col img{
+        width:100%;
+    }
+}
+
+.col ul li{
+	list-style-type:none;
+    }
+
+
+.para-italic{
+	font-style:italic;
+}

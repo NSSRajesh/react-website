@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px){
+    
+    .feature2-con{
+	width:95%;
+	margin:auto;
+    }
+	.bg{
+	background-image:url("../img/laptop.jpg");
+    background-position:center;
+	background-size:cover;
+	height:275px;
+    } 
+    .feature2-row{
+	display:flex;
+	flex-wrap:wrap;
+    }
+    .col2{
+	width:100%;
+    }
+	.head4{
+	font-size:28px;
+	padding-bottom:12px;
+	padding-top:10px;
+	}
+	.feat2-para{
+		font-size:20px;
+	}
+	.inner-row{
+		margin-top:10px;
+	}
+	.inner-col{
+		display:flex;
+		width:100%;
+		gap:2%;
+		margin-top:10px;
+	}
+	.inner-para p{
+		font-size:18px;
+	}
+	.inner-col span{
+		font-size:30px;
+	}
+	.flex-row{
+		font-size:15px;
+	}
+	.feat2-icon{
+		font-size:25px;
+	}
+
+}
+
+@media(min-width:720px){
+    
+    .feature2-con{
+	width:95%;
+	margin:auto;
+    }
+	.bg{
+	background-image:url("../img/laptop.jpg");
+    background-position:center;
+	background-size:cover;
+    height:30vh;
+	} 
+    .feature2-row{
+	display:flex;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:center;
+	gap:2%;
+    }
+    .col2{
+	width:50%;
+    }
+	.head4{
+	font-size:32px;
+	padding-bottom:18px;
+	}
+	.feat2-para{
+		font-size:20px;
+	}
+	.inner-row{
+		margin-top:18px;
+	}
+	.inner-col{
+		display:flex;
+		width:50%;
+		gap:3%;
+		margin-top:10px;
+	}
+	.inner-para p{
+		font-size:18px;
+	}
+	.inner-col span{
+		font-size:30px;
+	}
+	.flex-row{
+		font-size:15px;
+	}
+	.feat2-icon{
+		font-size:25px;
+	}
+}
+
+@media(min-width:1000px){
+    
+    .feature2-sec{
+	padding:40px 0;
+    margin:40px 0;
+	}
+    .feature2-con{
+	width:90%;
+	margin:auto;
+    }
+	.bg{
+	background-image:url("../img/laptop.jpg");
+    background-position:center;
+	background-size:cover;
+	height:50vh;
+    } 
+    .feature2-row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+    }
+    .col2{
+	width:50%;
+    }
+	.head4{
+	font-size:32px;
+	padding-bottom:18px;
+	}
+	.feat2-para{
+		font-size:20px;
+	}
+	.inner-row{
+		margin-top:18px;
+	}
+	.inner-col{
+		display:flex;
+		width:50%;
+		gap:3%;
+		margin-top:10px;
+	}
+	.inner-para p{
+		font-size:18px;
+	}
+	.inner-col span{
+		font-size:30px;
+	}
+	.flex-row{
+		font-size:15px;
+	}
+	.feat2-icon{
+		font-size:25px;
+	}	
+}
+
+
+.inner-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.feat2-icon{
+	color:#f7cc65;
+}

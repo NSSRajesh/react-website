@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px){
+    .feature-sec{
+        padding: 15px 0;
+        margin: 15px 0;
+        }
+        .feature-container{
+        width:95%;
+        margin:auto;
+        }
+        .feature-row{
+        display:flex;
+        flex-wrap:wrap;
+        }
+        .feat-icon{
+        font-size:30px;
+        padding-right:16px;
+        }
+        .col1{
+        width:100%;
+        }
+        .feat-head h3{
+        font-weight:600;
+        font-size:20px;
+        }
+       .feat-head p{
+        font-size:18px;
+        padding-top:5px;
+        }
+        .news-icon{
+            padding-top:18px;
+        }
+}
+
+@media(min-width:720px){
+    .feature-sec{
+        padding: 40px 0;
+        margin: 40px 0;
+        }
+        .feature-container{
+        width:95%;
+        margin:auto;
+        }
+        .feature-row{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:2%;
+        align-items:center;
+        
+        }
+        .feat-icon{
+        font-size:30px;
+        padding-right:16px;
+        }
+        .col1{
+        width:50%;
+        }
+        .feat-head h3{
+        font-weight:600;
+        font-size:30px;
+        }
+       .feat-head p{
+        font-size:18px;
+        padding-top:5px;
+        }
+        .news-icon{
+            padding-top:25px;
+        }
+}
+
+@media(min-width:1000px){
+    .feature-sec{
+        padding: 40px 0;
+        margin: 40px 0;
+        }
+        .feature-container{
+        width:90%;
+        margin:auto;
+        }
+        .feature-row{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:5%;
+        }
+        .feat-icon{
+        font-size:30px;
+        color:#ed8d18;
+        padding-right:16px;
+        }
+        .col1{
+        width:50%;
+        }
+        .feat-head h3{
+        font-weight:600;
+        font-size:20px;
+        }
+       .feat-head p{
+        font-size:18px;
+        padding-top:5px;
+        }
+        .news-icon{
+            padding-top:26px;
+        }
+}
+
+
+.news-icon{
+	display:flex;
+}
+.feat-icon{
+	color:#f7cc65;
+}
+.col1 img{
+	width:100%;
+}
